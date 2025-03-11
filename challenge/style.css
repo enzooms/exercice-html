@@ -2,3 +2,11 @@ h1 #vert {
     color:#64d1a3;
     font: size 40px;
 }
+
+body{
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
