@@ -4,9 +4,58 @@ h1 #vert {
 }
 
 body{
-    background-color: black;
+    background-color:black;
 }
 
 h1 {
     color: white;
+    font-size: large;
+}
+
+h2 {
+color: #ffffff;
+font-size: xx-large;
+ }
+
+ .highlight {
+    color: #64d1a3;
+ }
+
+ p {
+    color: grey;
+ }
+
+nav {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 40px; 
+    top: 30px; 
+    font-size: x-small;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.categories {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 20px; 
+}
+
+.categories button {
+    background: none;
+    color: white;
+    padding: 8px 20px; /* Espace intérieur */
+}
+
+.categories.PORTRAIT {
+    background-color: #64d1a3; 
+    color: black;
 }
