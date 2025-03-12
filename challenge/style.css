@@ -1,10 +1,10 @@
 h1 #vert {
-    color:#64d1a3;
+    color: #64d1a3;
     font: size 40px;
 }
 
-body{
-    background-color:black;
+body {
+    background-color: black;
 }
 
 h1 {
@@ -13,49 +13,47 @@ h1 {
 }
 
 h2 {
-color: #ffffff;
-font-size: xx-large;
- }
+    color: #ffffff;
+    font-size: xx-large;
+}
 
- .highlight {
+.highlight {
     color: #64d1a3;
- }
+}
 
- p {
+p {
     color: grey;
- }
+}
 
 nav {
     display: flex;
     gap: 15px;
     position: absolute;
-    right: 40px; 
-    top: 30px; 
+    right: 40px;
+    top: 30px;
     font-size: x-small;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 100%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid grey;
 }
 
 .categories {
     display: flex;
-    justify-content: center; 
-    gap: 15px; 
-    margin-top: 20px; 
-}
+    justify-content: center;
+    gap: 15px;
+     }
 
-.categories button {
-    background: none;
-    color: white;
-    padding: 8px 20px; /* Espace intérieur */
-}
-
-.categories.PORTRAIT {
+.categories .portrait {
     background-color: #64d1a3; 
-    color: black;
+    border-color: #64d1a3;
+    color: white;
+     }
+
+.image {
+    text-align: center;
 }
